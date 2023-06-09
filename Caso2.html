@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <form>
+    <h1>Encuesta de Satisfacción del Evento</h1>
+    
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required>
+    
+    <label for="evaluacion">Evaluación del evento:</label>
+    <select id="evaluacion" name="evaluacion" required>
+      <option value="">Seleccionar</option>
+      <option value="excelente">Excelente</option>
+      <option value="bueno">Bueno</option>
+      <option value="regular">Regular</option>
+      <option value="malo">Malo</option>
+    </select>
+    
+    <label for="comentarios">Comentarios:</label>
+    <textarea id="comentarios" name="comentarios"></textarea>
+    
+    <!-- Preguntas adicionales -->
+    <label for="pregunta1">Que sugerencias nos daria:</label>
+    <input type="text" id="pregunta1" name="pregunta1">
+    
+    <label for="pregunta2">Que le parecio el evenro:</label>
+    <input type="text" id="pregunta2" name="pregunta2">
+    
+    <label for="pregunta3">Que cosa nos recomendaria:</label>
+    <textarea id="pregunta3" name="pregunta3"></textarea>
+    <input type="submit" value="Enviar">
+    </body>
+    </html>

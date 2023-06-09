@@ -1,0 +1,29 @@
+body{
+    background-color: blanchedalmond;
+    color: black;
+    flex-direction: column;
+    
+    
+}
+#unico{
+    color: red;
+    font-weight: bold;
+}
+div{
+   border:3xp solid black;
+}
+.subtitulo{
+    font-style: italic;
+    color:cornflowerblue;
+}
+p{
+    text-anchor: end;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+}

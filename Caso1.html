@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registro de Usuarios Para una Conferencia</h1>
+    <form action="index.html" method="get" name="login" autocomplete="on">
+        <fieldset>
+            <legend>formulario de Registro</legend>
+            <label for="user">Nombre Completo:</label>
+        <input type="text"name="user" id="user" placeholder="Nombre">
+        <p>
+            <label for="email">Correo Electronico:</label>
+            <input type="text" placeholder="Correo Electronico">
+        </p>
+        <p>
+            <label for="text">Telefono:</label>
+            <input type="text" placeholder="Telefono">
+        </p>
+        <p>
+            <label for="text">Dirección:</label>
+            <input type="text" placeholder="Dirección">
+        </p>
+         <p>
+            Ocupación:
+            <input type="radio" name="Ocup" value="E"/> Estudiante
+            <input type="radio" name="Ocup" value="Em"/> Empleado
+            <input type="radio" name="Ocup" value="P"/> Profesor
+         </p>
+         <p>
+            Talla de Camiseta:
+            <input type="radio" name="Talla" value="S"/> chica
+            <input type="radio" name="Talla" value="M"/> Mediana
+            <input type="radio" name="Talla" value="L"/> Grande
+            <input type="radio" name="Talla" value="XL"/> Extragrande
+         </p>
+         <p>
+            Preferencias Dietéticas:
+            <input type="checkbox" name="vegetariano"/>
+            vegetariano
+            <input type="checkbox" name="Vegano"/>
+            Vegano
+            <input type="checkbox" name="sin gluten"/>
+            sin gluten
+            <input type="checkbox" name="sin restricciones"/>
+            sin restricciones
+         </p>
+         <p>
+            ¿Eres alergico?
+            <input type="text">
+         </p>
+         <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
